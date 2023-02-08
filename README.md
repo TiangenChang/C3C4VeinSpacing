@@ -1,20 +1,19 @@
 # C3C4VeinSpacing
 
 Program: leafDevSimulator_v20221124.py
+
 Developer: Tiangen Chang (changtiangen@gmail.com)
 
-############################################################################################################################################################
-# This program aims to simulating typical monocot vein patterning with different levels of SHR-SCR and auxin, where
-#   SHR-SCR module will 1) promotes MC growth and division and 2) inhibits vein formation by inhibiting Auxin synthesis.
-#   SG (substrate for growth) comes from vein and diffuse to outer layers to support cell growth and division
-#   Auxin produces by ground meristem cells and diffuse to sinks (veins) with conc. gradient. It will 1) promotes vein
-#   formation and 2) inhibits MC growth and division.
-#
-#    Variables: (SHR, SCR, Auxin, SG)
-#       synthesis rate
-#       degradation rate
-#       diffuse rate
-############################################################################################################################################################
+This program aims to simulating typical monocot vein patterning with different levels of SHR-SCR and auxin, where:
+   SHR-SCR module will 1) promotes MC growth and division and 2) inhibits vein formation by inhibiting Auxin synthesis;
+   SG (substrate for growth) comes from vein and diffuse to outer layers to support cell growth and division;
+   Auxin produces by ground meristem cells and diffuse to sinks (veins) with conc. gradient. It will 1) promotes vein formation and 2) inhibits MC growth and division.
+
+Variables: (SHR, SCR, Auxin, SG)
+   synthesis rate
+   degradation rate
+   diffuse rate
+
 
 Simulate Rice_WT: python leafDevSimulator_v20221124.py 3 3 0.5
 Simulate Rice_shr: python leafDevSimulator_v20221124.py 1.5 3 0.5
