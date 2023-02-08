@@ -4,9 +4,10 @@ Program: leafDevSimulator_v20221124.py
 
 Developer: Tiangen Chang (changtiangen@gmail.com)
 
+
 ## Aims and model variables
 
-This program aims to simulating typical monocot vein patterning with different levels of SHR-SCR and auxin, where:
+### This program aims to simulating typical monocot vein patterning with different levels of SHR-SCR and auxin, where:
 
    SHR-SCR module will 1) promotes MC growth and division and 2) inhibits vein formation by inhibiting Auxin synthesis;
 
@@ -15,13 +16,14 @@ This program aims to simulating typical monocot vein patterning with different l
    Auxin produces by ground meristem cells and diffuse to sinks (veins) with conc. gradient. It will 1) promotes vein formation and 2) inhibits MC growth and division.
 
 
-Variables: (SHR, SCR, Auxin, SG)
+### Variables: (SHR, SCR, Auxin, SG)
    
    synthesis rate
    
    degradation rate
    
    diffuse rate
+
 
 ## Run commands 
 
